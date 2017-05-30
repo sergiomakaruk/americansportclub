@@ -176,24 +176,115 @@ html,body{
 	background-color: #f2f2f2;
 }
 */
+a:hover {
+  text-decoration: none;
+}
+.font-promo {
+  font-family: 'Oswald', sans-serif;
+}
 .container-fluid {
   margin-right: auto;
   margin-left: auto;
   max-width: 1440px;
   /* or 950px */
-  background-color: white;
 }
 .full-width {
   width: 100%;
 }
 div.header {
-  text-align: center;
   padding: 10px;
+}
+div.header .info {
+  padding-top: 20px;
+  padding-right: 20px;
+  font-weight: 800;
+}
+div.header img {
+  padding-left: 20px;
+}
+.back-rojo {
+  color: white;
+  background-color: #922825;
+}
+.back-azul {
+  color: white;
+  background-color: #172a9a;
+}
+div.actividades h2 {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 800;
+}
+div.actividades div.actividad {
+  padding: 0px;
+}
+div.actividades div.actividad div.wrapper {
+  cursor: pointer;
+}
+div.actividades div.actividad div.wrapper img.color {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  opacity: 0;
+  transition: all 0.2s ease-out;
+}
+div.actividades div.actividad div.wrapper img.color:hover {
+  opacity: 1;
+}
+div.actividades div.actividad div.wrapper div.titulo {
+  position: absolute;
+  z-index: 100;
+  bottom: 30px;
+}
+div.actividades div.actividad div.wrapper div.titulo span {
+  font-family: 'Oswald', sans-serif;
+  font-size: 20px;
+  letter-spacing: 10px;
+  padding-left: 20px;
+  padding-right: 10px;
+  margin-bottom: 8px;
+  display: inline-block;
 }
 div.promo {
   background-image: url('/img/landing/bg-promo.jpg');
   background-size: cover;
   min-height: 500px;
+  padding-top: 110px;
+  padding-bottom: 70px;
+}
+div.promo div.promo-text {
+  /*  div.item{
+      margin-bottom: 50px;
+    }
+
+    span{
+      background-color: #922825;
+      .font-promo;
+      font-size: 60px;
+      color: white;
+      padding: 0px 10px;
+      line-height: 60px;
+      letter-spacing: 10px;
+      text-align: right;
+    }*/
+  text-align: right;
+}
+div.promo div.promo-text img {
+  padding-top: 15px;
+  padding-right: 20px;
+}
+div.promo div.frase {
+  border-bottom: 1px solid white;
+  padding-top: 30px;
+  padding-bottom: 10px;
+  text-align: right;
+}
+div.promo div.frase span {
+  color: white;
+  font-weight: 600;
+}
+div.promo div.frase img {
+  margin-left: 20px;
 }
 form ul.parsley-errors-list {
   margin: 0;

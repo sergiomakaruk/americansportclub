@@ -1,5 +1,7 @@
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
+<link href="https://fonts.googleapis.com/css?family=Lato|Oswald:500,600,700" rel="stylesheet">
+
 <script type="text/javascript" src="/js/landing/jquery-2.2.0.min.js"></script>
 <script src="/js/landing/bootstrap.js"></script>
 <script src="/js/landing/extra.slider.min.js"></script>

@@ -3,6 +3,7 @@
 @section('content')
 
 @include('landing.assets.carousel')
+@include('landing.assets.actividades')
 @include('landing.assets.promo')
 @include('landing.assets.contacto')
 

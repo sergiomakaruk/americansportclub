@@ -4,13 +4,16 @@
     <ul>
 
       <li class="item">
-        <img class=""  src="/img/landing/slide/slide_1.jpg" alt="">
+        <img class=""  src="/img/landing/slide/banner-1.jpg" alt="">
       </li>
       <li class="item">
-        <img class=""  src="/img/landing/slide/slide_2.jpg" alt="">
+        <img class=""  src="/img/landing/slide/banner-2.jpg" alt="">
       </li>
       <li class="item">
-        <img class=""  src="/img/landing/slide/slide_3.jpg" alt="">
+        <img class=""  src="/img/landing/slide/banner-3.jpg" alt="">
+      </li>
+      <li class="item">
+        <img class=""  src="/img/landing/slide/banner-4.jpg" alt="">
       </li>
 
     </ul>
