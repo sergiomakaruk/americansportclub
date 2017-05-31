@@ -48,6 +48,12 @@ $("document").ready(function() {
     speed:0.6,
 	});
 
+  $(".slider-galeria").extraSlider({
+  type: 'fade',
+  auto: 7,
+  speed:0.6,
+});
+
 
 
   loadImages();

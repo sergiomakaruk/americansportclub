@@ -12,11 +12,15 @@ $actividades = [
 ];
  ?>
 <div class="actividades">
-<div class="">
-  <div class="row-">
+  <div class="row">
     <div class="col-sm-12">
       <h2>Actividades</h2>
     </div>
+  </div>
+
+<div class="">
+  <div class="row-">
+
     @foreach($actividades as $act)
     <div class="{{$actividad}}">
       <div class="wrapper">

@@ -54,14 +54,18 @@ div.header{
 }
 
 div.actividades{
+  background-color: #282828;
 h2{
   text-align: center;
   text-transform: uppercase;
   font-weight: 800;
+  color: white;
+  padding: 10px;
 }
 
   div.actividad{
     padding: 0px;
+
 
     div.wrapper{
       cursor: pointer;
@@ -139,8 +143,46 @@ div.promo{
 
 }
 
+div.galeria{
+  background-color: #282828;
+  padding: 50px 0;
+}
+
+div.sedes{
+  padding: 50px 0;
+  div.sede{
+    padding: 0;
+    margin: 0;
+    &:first-child div.wrapper{
+      border-left: 1px solid rgba(0,0,0,0.5);
+    }
+    div.wrapper{
+      padding: 20px 30px;
+      margin-top: 20px;
+      border-right: 1px solid rgba(0,0,0,0.5);
+
+      img{width: 100%;}
+      min-height: 420px;
+
+      p{
+        margin-top: 10px;
+        font-size: 20px;
+        font-weight: 800;
+      }
+
+      ul{
+        .list-unstyled;
+        li{color:#222222;}
+      }
+    }
+  }
+
+}
+
 
 form{
+  background-color: rgba(255,255,255,0.5);
+  
   ul.parsley-errors-list{
     .list-unstyled;
     li{
@@ -150,4 +192,15 @@ form{
       padding: 5px 10px;
     }
   }
+}
+
+div.home-contacto{
+  background-image: url('/img/landing/bg-contacto.jpg');
+  background-size: cover;
+  padding: 50px 0;
+}
+
+div.footer{
+  background-color: #282828;
+  min-height: 200px;
 }

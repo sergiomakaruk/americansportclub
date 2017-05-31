@@ -1,4 +1,6 @@
-<div class="home-contacto container-fluid">
+<div class="home-contacto ">
+
+<div class="container-fluid">
   <div class="row">
     <h3>Contactanos</h3>
     <div class="col-xs-12 col-sm-12 col-md-4 col-md-offset-4">
@@ -34,6 +36,8 @@
     </div>
 
   </div>
+</div>
+
 </div>
 
 <div id="form-result" class="modal fade" tabindex="-1" role="dialog">
